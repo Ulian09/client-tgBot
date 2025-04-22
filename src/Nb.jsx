@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-const Navbar = ({ setShowOrders, getOrders, setFilterMode }) => {
+const Nb = ({ setShowOrders, getOrders, setFilterMode }) => {
   return (
     <div className="menu">
       <h3>pisichi i pisiunciki</h3>
@@ -14,4 +14,4 @@ const Navbar = ({ setShowOrders, getOrders, setFilterMode }) => {
   );
 };
 
-export default Navbar;
+export default Nb;
